@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Intro from '../Intro/Intro';
+import Features from '../Features/Features';
 import './App.css';
 
 export default class App extends Component {
@@ -7,6 +8,7 @@ export default class App extends Component {
     return (
       <div className="App">
         <Intro />
+        <Features />
       </div>
     );
   }
