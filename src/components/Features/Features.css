@@ -1,5 +1,6 @@
 .features-container {
   color: #333f4d;
+  padding-bottom: 2.2rem;
 }
 
 .features-header {
@@ -13,8 +14,12 @@
 }
 
 .feature-container {
+  color: #333f4d;
   display: flex;
   flex-direction: column;
   padding-left: 5rem;
-  padding-top: 4rem;
+}
+
+.features-content {
+  margin: 3.5rem 0;
 }
