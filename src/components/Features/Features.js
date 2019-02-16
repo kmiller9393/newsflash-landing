@@ -13,7 +13,7 @@ export default class Features extends Component {
         <section className="features-section">
           <div className="feature-container">
             <img src={user} alt="personalized" />
-            <p>
+            <p className="features-content">
               Every single time you log into Newsflash - a curated list of
               relevant news links is created automatically for you, based on the
               most up-to-date technology combined with your personal
@@ -24,7 +24,7 @@ export default class Features extends Component {
           </div>
           <div className="feature-container">
             <img src={flexible} alt="control" />
-            <p>
+            <p className="features-content">
               You are in control of what news links you see. Populate your
               favorites with the people, topics, and sources of news that you
               want to see, and filter out the people,topics, and sources that
@@ -33,7 +33,7 @@ export default class Features extends Component {
           </div>
           <div className="feature-container">
             <img src={network} alt="connect" />
-            <p>
+            <p className="features-content">
               Easily connect with others via sharing of stories. Comment on
               posts that you respond to and meet new friends who feel the same
               way. Send messages in groups or in private to easily share
@@ -42,7 +42,7 @@ export default class Features extends Component {
           </div>
           <div className="feature-container">
             <img src={reward} alt="rewarding" />
-            <p>
+            <p className="features-content">
               The more immersed and involved you are on the Newsflash platform,
               the more good karma you receive as a user. Down the road, this
               karma will basically equal straight cash $$$. We at Newsflash
