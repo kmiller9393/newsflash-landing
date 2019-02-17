@@ -9,34 +9,44 @@ export default class Contact extends Component {
     return (
       <ScrollableAnchor id="contact">
         <div className="contact-container">
-          <h1 className="contact-header">Contact</h1>
-          <div className="contact-content-container">
-            <div className="founder-container">
+          <h1 className="contact-header">Let's Get In Touch</h1>
+          <section className="contact-content-container">
+            <article className="founder-container">
               <img
                 className="founder-image"
                 src={adam}
                 alt="newsflash founder"
               />
               <p className="email-text">
+                Email:{' '}
                 <a className="founder-link" href="mailto:adam@example.com">
                   adam@example.com
                 </a>
               </p>
-            </div>
-            <div className="founder-container">
+            </article>
+            <article className="founder-container">
               <img
                 className="founder-image"
                 src={kurt}
                 alt="newsflash founder"
               />
               <p className="email-text">
-                email:{' '}
-                <a className="founder-link" href="mailto:kmiller9393@gmail.com">
-                  kmiller9393@gmail.com
+                Email:{' '}
+                <a className="founder-link" href="mailto:kurt@example.com">
+                  kurt@example.com
                 </a>
               </p>
-            </div>
-          </div>
+            </article>
+          </section>
+          <footer className="contact-footer">
+            <a
+              className="back-home-link"
+              onClick={this.props.handleScroll}
+              href="#home"
+            >
+              Back to Top
+            </a>
+          </footer>
         </div>
       </ScrollableAnchor>
     );

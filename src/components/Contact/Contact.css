@@ -15,6 +15,7 @@
   grid-template-columns: repeat(2, 45%);
   grid-template-rows: repeat(1, 100%);
   padding-left: 5rem;
+  padding-top: 1.5rem;
 }
 
 .founder-container {
@@ -24,10 +25,25 @@
 }
 
 .founder-image {
-  height: 250px;
-  width: 250px;
+  height: 300px;
+  width: 300px;
 }
 
 .founder-link {
+  text-decoration: none;
+}
+
+.contact-footer {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 37%;
+}
+
+.back-home-link {
+  color: #171717;
+  cursor: pointer;
+  font-weight: 500;
   text-decoration: none;
 }
