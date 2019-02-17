@@ -1,0 +1,33 @@
+.contact-container {
+  color: #333f4d;
+  height: 100vh;
+  height: 100%;
+  width: 100vw;
+  width: 100%;
+}
+
+.contact-header {
+  padding: 3rem 0 0 5rem;
+}
+
+.contact-content-container {
+  display: grid;
+  grid-template-columns: repeat(2, 45%);
+  grid-template-rows: repeat(1, 100%);
+  padding-left: 5rem;
+}
+
+.founder-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.founder-image {
+  height: 250px;
+  width: 250px;
+}
+
+.founder-link {
+  text-decoration: none;
+}
